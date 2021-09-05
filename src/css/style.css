@@ -1,0 +1,22 @@
+.country {
+  display: block;
+}
+.languages {
+  /* display: flex; */
+}
+li {
+  list-style: none;
+}
+.capital {
+  text-transform: uppercase;
+}
+
+.population {
+  text-transform: uppercase;
+}
+.languages {
+  text-transform: uppercase;
+}
+.flag {
+  display: block;
+}
