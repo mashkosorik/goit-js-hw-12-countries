@@ -8,11 +8,11 @@ const input = document.querySelector('#searchInput');
 input.addEventListener(
   'input',
   debounce(e => {
-    if (!e.target.value) {
+    if (!e.target.value.trim()) {
       countries.innerHTML = '';
       return;
     }
     fetchCountries(e.target.value);
     // input.value = ''
-  }, 1700),
+  }, 500),
 );
